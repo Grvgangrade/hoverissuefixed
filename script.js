@@ -38,7 +38,6 @@ function createLights() {
   const shadowLight = new THREE.DirectionalLight(0xffffff, 0.8);
   shadowLight.position.set(200, 200, 200);
   shadowLight.castShadow = true;
-//  shadowLight.shadowDarkness = 0.2;
 
   const backLight = new THREE.DirectionalLight(0xffffff, 0.4);
   backLight.position.set(-100, 200, 50);
